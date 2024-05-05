@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rock+Salt&display=swap');
+body {
+    font-family: var(--paragraf-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #B9D8C2;
+    --secondary-color: #3A4F41;
+    --accent1-color: #C69F89;
+    --accent2-color: #5386E4;
+
+    --heading-font: 'Rock Salt', serif;
+    --paragraph-font: 'Reboto', serif;
+
+    --nav-background-color: #5e3dd6;
+    --nav-link-color: #51e9e1;
+    --nav-hover-link-color: #cdee12;
+    --nav-hover-background-color: #aa53e4;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color)
+}
+header {
+    padding: 20px;
+    background-color: var(--accent1-color)
+}
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-hover-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
