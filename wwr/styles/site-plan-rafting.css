@@ -37,11 +37,14 @@ nav {
     display: flex;
 }
 nav a {
-    display: block;
+    display: flex;
+    font-size: 15px;
     color: var(--nav-hover-link-color);
     text-decoration: none;
     padding: 1rem;
+    text-size-adjust: 50px;
 }
+
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
