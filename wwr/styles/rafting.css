@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: #10b954;
-    --secondary-color: #1adae7b0;
+    --secondary-color: #621ae7b0;
     --accent1-color: #ca6f3b;
     --accent2-color: #95b2e7;
 
@@ -16,8 +16,8 @@
 }
 
 img.Logo {
-    width: 25%;
-    height: 25%;
+    width: 60%;
+    height: 90%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -31,10 +31,7 @@ html{
 body{
     margin: 30px;
 }
-img {
-    max-width: 100%; 
-    height: auto; 
-}
+
 
 nav, a.navtext {
     font-size: 25px; 
@@ -49,4 +46,35 @@ a {
 
 p {
     padding: 25px;
+    font-size: 25PX;
 }
+header{
+    margin: 10px auto;
+	display: grid;
+	grid-template-columns: 150px 2fr 5fr;
+	align-items: center;
+	border-bottom: 3px solid #099b5e;
+}
+
+section,img{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 40%;
+    font-display: swap;
+}
+
+img{
+    width: 100%;
+    height: 500px;
+}
+
+footer,img{
+    width: 60%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
