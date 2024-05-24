@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Jacquard 12";
+    font-size: 1.2em;
+    color: rgb(118, 68, 233);
+    background: #fff;
+}
+header{
+    margin: 0 auto;
+    width: 700px;
+}
+h1{
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: navajowhite;
+    text-align: center;
+}
+form{
+    width: 0 auto;
+    margin: 50px;
+    padding: 15px;
+    border: 10px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: aquamarine;
+    display: grid;
+}
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.1)
+    padding: 3rem
+}
+legend{
+    padding: 1rem;
+    color: beige;
+    font-size: 1.5em;
+}
+label, input, button, select, textarea {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+input, select, textarea {
+    padding: 0.8rem;
+    font: 1.1rem;
+}
+input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    vertical-align: bottom;
+}
+button{
+    margin: 1rem;
+    background-color: blanchedalmond;
+    color: #a00e0e;
+    border: none;
+    border-radius: .6rem;
+    padding: .75rem;
+    font-size: large;
+}
+button:hover {
+    background-color: darkgreen;
+}
+footer{
+    margin: 1rem auto 0;
+    width: 700px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 1.5em;
+}
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 1.5em;
+}
